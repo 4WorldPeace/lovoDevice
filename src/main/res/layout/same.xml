@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+                android:id="@+id/gongxu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:textColor="#FF0000"
+                />
+        <!-- 扫描衣物编号 -->
+
+        <EditText
+                android:id="@+id/clothesNo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:hint="@string/qingsaomiao"
+                android:singleLine="true"
+                android:imeOptions="actionSearch"
+                android:inputType="number"
+                android:textSize="25sp"/>
+
+    </LinearLayout>
+    <ListView
+            android:id="@+id/centerMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="bottom"
+            android:orientation="horizontal">
+
+        <!-- 工号 -->
+
+        <TextView
+                android:id="@+id/yuangongNo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="end"
+                android:textSize="20sp"
+                android:textStyle="italic"/>
+
+        <TextView
+                android:id="@+id/gong"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="50dp"
+                android:text="@string/gong"
+                android:textSize="20sp"/>
+
+        <!-- 一天内共几件 -->
+
+        <TextView
+                android:id="@+id/clothesSumNo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="@string/zero"
+                android:textColor="#FF0000"
+                android:textSize="35sp"/>
+    </LinearLayout>
+
+</LinearLayout>

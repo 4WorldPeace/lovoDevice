@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">朗沃科技</string>
+    <string name="employeeNo">工号:</string>
+    <string name="action_settings">Settings</string>
+    <string name="head">朗沃科技 荣誉出品</string>
+    <string name="password">密码:</string>
+    <string name="loginButton">登录</string>
+    <string name="yuangongNO">工号：</string>
+    <string name="请输入工号">请输入工号</string>
+    <string name="请输入密码">请输入密码</string>
+    <string name="查询">查询</string>
+    <string name="分拣">分拣</string>
+    <string name="洗涤">洗涤</string>
+    <string name="熨烫">熨烫</string>
+    <string name="质检">质检</string>
+    <string name="出厂">出厂</string>
+    <string name="hao_qian">号/签：</string>
+    <string name="qingsaomiao">扫描或输入条码编号</string>
+    <string name="gong">当日共计：</string>
+    <string name="zero">0</string>
+    
+</resources>

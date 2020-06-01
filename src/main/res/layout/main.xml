@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|top">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="@string/head"
+                android:textColor="#FF0000"
+                android:textSize="30sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal">
+
+        <Button
+                android:id="@+id/chaxun"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:onClick="chaxun"
+                android:text="@string/查询"
+                android:textSize="40sp" />
+
+        <Button
+                android:id="@+id/fenjian"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:onClick="fenjian"
+                android:layout_marginLeft="20dp"
+                android:text="@string/分拣"
+                android:textSize="40sp"
+                tools:ignore="RtlHardcoded" />
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+        <Button
+                android:id="@+id/yuntang"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:onClick="yuntang"
+                android:text="@string/熨烫"
+                android:textSize="40sp"
+                tools:ignore="RtlHardcoded" />
+
+        <Button
+                android:id="@+id/xidi"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="1"
+                android:onClick="xidi"
+                android:text="@string/洗涤"
+                android:textSize="40sp"
+                tools:ignore="RtlHardcoded" />
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+
+        <Button
+                android:id="@+id/zhijian"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:onClick="zhijian"
+                android:text="@string/质检"
+                android:textSize="40sp"
+                tools:ignore="RtlHardcoded" />
+        <Button
+                android:id="@+id/chuchang"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="1"
+                android:onClick="chuchang"
+                android:text="@string/出厂"
+                android:textSize="40sp"
+                tools:ignore="RtlHardcoded" />
+    </LinearLayout>
+    <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <Button
+                android:id="@+id/queryPici"
+                android:onClick="queryPici"
+                android:text="出厂批次查询"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:textSize="30sp"
+                />
+    </LinearLayout>
+
+
+</LinearLayout>
